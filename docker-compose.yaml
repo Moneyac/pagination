@@ -1,0 +1,9 @@
+services:
+  paginationn:
+    build: ./paginationn
+    container_name: pagination_c
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+ 
